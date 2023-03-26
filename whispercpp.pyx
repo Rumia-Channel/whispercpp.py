@@ -7,7 +7,7 @@ import requests
 import os
 from pathlib import Path
 
-MODELS_DIR = str(Path().cwd().replace("\", '/'))
+MODELS_DIR = str(Path().cwd()).replace("\\", '/')
 print("Saving models to:", MODELS_DIR)
 
 
